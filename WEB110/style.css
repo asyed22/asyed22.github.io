@@ -1,23 +1,25 @@
 .x{font-family: Georgia, 'Times New Roman', Times, serif;
 color: black;
 background-color: antiquewhite;
-font-size: 10px;
+font-size: 50px;
 text-align: center;
-border: 5px #ffd700;
-height: 50%;
-width: 50%;
-margin: 50%;
+border: 10px #ffd700;
+height: 100%;
+width: 100%;
+margin: 50px;
 padding: 10px;
-border-radius: 10px;}
+border-radius: 10px;
+justify-content: center;}
 
 .y{color: red;
-    background-color: antiquewhite;
+    background-color: #ffd700;
     text-align: center;
-    border: 5px #ffd700;
-    height: 50%;
-    width: 50%;
-    margin: 50%;
-    padding: 10px;}
+    border: 10px #ffffff;
+    height: 100%;
+    width: 100%;
+    margin: 50px;
+    padding: 10px;
+    justify-content: center;}
 
 html{
     background-color: black;}
