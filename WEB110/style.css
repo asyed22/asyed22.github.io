@@ -39,4 +39,12 @@ img{
     height: 500px;
     width: 500px;
     align-content: center;
+    text-align: center;
+}
+
+iframe{
+    width: 560;
+    height: 315;
+    align-content: center;
+    text-align: center;
 }
