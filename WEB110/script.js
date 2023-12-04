@@ -1,9 +1,9 @@
 function setTime () {
-    var time = new date();                
-    var HRS = time.getHours();
-    var MIN = time.getMinutes();
-    var SEC = time.getSeconds();
-    var session  = document.getElementById('session');
+    let time = new date();                
+    let HRS = document.getElementById('hours')();
+    let MIN = document.getElementById('minutes')();
+    let SEC = document.getElementById('seconds')();
+    let session  = document.getElementById('session');
             
     if (hours > 12){
         session.innerHTML = 'PM';
@@ -11,8 +11,8 @@ function setTime () {
     }else{
         session.innerHTML = 'AM';
     }
-    HRS = document.getElementById('hours').innerHTML;
-    MIN = document.getElementById('minutes').innerHTML;
-    SEC = document.getElementById('seconds').innerHTML;                    
+    HRS.innerHTML = time.getHours();
+    MIN.innerHTML = time.getMinutes();
+    SEC.innerHTML = time.getSeconds();                    
 }
 setInterval(setTime , 1000);
