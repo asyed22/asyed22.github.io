@@ -16,4 +16,4 @@ function setTime() {
         session.innerHTML = 'AM';
     }                    
 }
-setInterval(setTime,10);
+setInterval(setTime (),10);
