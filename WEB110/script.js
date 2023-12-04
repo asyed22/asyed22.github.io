@@ -5,7 +5,7 @@ function setTime () {
     let SEC = document.getElementById('seconds')();
     let session  = document.getElementById('session');
             
-    if (hours > 12){
+    if (HRS >= 12){
         session.innerHTML = 'PM';
         HRS = HRS - 12;
     }else{
