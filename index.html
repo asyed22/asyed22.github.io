@@ -11,7 +11,7 @@
     <body>
 
         <H1 class="y">Ahmedullah Syed</H1>
-        <div class=""clock>
+        <div class="clock">
             <span id  = "HRS">00</span>   
             <span>:</span>   
             <span id = "MIN">00</span>   
@@ -28,15 +28,16 @@
             let time = new date();                
             HRS.innerHTML = time.getHours();
             MIN.innerHTML = time.getMinutes();
-            SEC.innerHTML = time.getSeconds();                
-            },1000)
+            SEC.innerHTML = time.getSeconds();        
             if (hours > 12){
                 session.innerHTML = 'PM'
                 HRS = HRS - 12
             }
             else{
                 session.innerHTML = 'AM'
-            }
+            }                    
+            },1000)
+
         </script>
 
         <h2 class = "y" style="font-size: 50px;">Welcome to my site!</h2>
