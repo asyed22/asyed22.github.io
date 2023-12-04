@@ -37,7 +37,7 @@ html{
 
 .clock{
     width: 800px;
-    height: 180px;
+    height: 100%;
     position: absolute;
     padding: 10px;
     text-align: center;
