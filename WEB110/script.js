@@ -1,4 +1,4 @@
-function setTime() {
+function setTime () {
     var time = new date();                
     var HRS = time.getHours();
     var MIN = time.getMinutes();
@@ -16,4 +16,4 @@ function setTime() {
         session.innerHTML = 'AM';
     }                    
 }
-setInterval(setTime (),10);
+setInterval(setTime , 1000);
