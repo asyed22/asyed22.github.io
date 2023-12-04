@@ -4,16 +4,15 @@ function setTime () {
     var MIN = time.getMinutes();
     var SEC = time.getSeconds();
     var session  = document.getElementById('session');
-    HRS = document.getElementById('HRS').innerHTML;
-    MIN = document.getElementById('MIN').innerHTML;
-    SEC = document.getElementById('SEC').innerHTML;
             
     if (hours > 12){
         session.innerHTML = 'PM';
         HRS = HRS - 12;
-    }
-    else{
+    }else{
         session.innerHTML = 'AM';
-    }                    
+    }
+    HRS = document.getElementById('hours').innerHTML;
+    MIN = document.getElementById('minutes').innerHTML;
+    SEC = document.getElementById('seconds').innerHTML;                    
 }
 setInterval(setTime , 1000);
