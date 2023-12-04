@@ -1,8 +1,8 @@
 function setTime () {
-    var time = new date();                
-    var HRS = document.getElementById('hours')();
-    var MIN = document.getElementById('minutes')();
-    var SEC = document.getElementById('seconds')();
+    var time = new date(ge);                
+    var HRS = document.getElementById('hours');
+    var MIN = document.getElementById('minutes');
+    var SEC = document.getElementById('seconds');
     var session  = document.getElementById('session');
             
     if (HRS >= 12){

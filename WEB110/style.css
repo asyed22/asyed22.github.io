@@ -1,5 +1,9 @@
 html{
-    background-color: black;}
+    background-color: black;
+    height: 100 vh;
+    display: flex;
+    justify-content: center;
+}
 
 .x{font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
