@@ -17,18 +17,20 @@
             <span id = "MIN">00</span>   
             <span>:</span>   
             <span id = "SEC">00</span>
-            <span id="session"></span>   
+            <span id="session">AM</span>   
         </div>
         <script> 
-            let HRS = document.getElementById("HRS")
-            let MIN = document.getElementById("MIN")
-            let SEC = document.getElementById("SEC")
+
 
             setInterval(()=>{
-            let time = new date();                
-            HRS.innerHTML = time.getHours();
-            MIN.innerHTML = time.getMinutes();
-            SEC.innerHTML = time.getSeconds();        
+            var time = new date();                
+            var HRS = time.getHours();
+            var MIN = time.getMinutes();
+            var SEC = time.getSeconds();
+            HRS = document.getElementById('HRS').innerHTML
+            MIN = document.getElementById('MIN').innerHTML
+            SEC = document.getElementById('SEC').innerHTML
+                    
             if (hours > 12){
                 session.innerHTML = 'PM'
                 HRS = HRS - 12
@@ -36,7 +38,7 @@
             else{
                 session.innerHTML = 'AM'
             }                    
-            },1000)
+            },10)
 
         </script>
 
