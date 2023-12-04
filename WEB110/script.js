@@ -1,9 +1,9 @@
 function setTime () {
-    let time = new date();                
-    let HRS = document.getElementById('hours')();
-    let MIN = document.getElementById('minutes')();
-    let SEC = document.getElementById('seconds')();
-    let session  = document.getElementById('session');
+    const time = new date();                
+    var HRS = document.getElementById('hours')();
+    var MIN = document.getElementById('minutes')();
+    var SEC = document.getElementById('seconds')();
+    var session  = document.getElementById('session');
             
     if (HRS >= 12){
         session.innerHTML = 'PM';
