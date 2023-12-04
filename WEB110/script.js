@@ -1,5 +1,5 @@
 function setTime () {
-    const time = new date();                
+    var time = new date();                
     var HRS = document.getElementById('hours')();
     var MIN = document.getElementById('minutes')();
     var SEC = document.getElementById('seconds')();
