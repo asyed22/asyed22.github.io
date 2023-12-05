@@ -54,7 +54,9 @@ html{
     background-color: #222222;
     width: 600px;
     padding: 10px;
+    margin-right: auto;
     margin-left: 10%;
+    margin-top: 100px;
 }
 #date{
     font-size: 20px !important;
