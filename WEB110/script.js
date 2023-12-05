@@ -11,7 +11,7 @@ function tick(){
     h = h<10? '0' +h: h;
     m = m<10? '0' +m: m;
     s = s<10? '0' +s: s;
-    if (h >= 12){
+    if (h > 12){
         document.getElementById('session').innerHTML = 'PM';
         h = h - 12;
     }else{
