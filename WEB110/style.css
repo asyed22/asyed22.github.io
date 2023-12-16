@@ -59,8 +59,8 @@ html{
     margin-left: auto;
 
 }
-.date{
-    justify-content: center;
+#date{
+    font-size: 20px !important;
     text-align: center;
 }
 .clock ul{
