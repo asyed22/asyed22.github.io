@@ -8,10 +8,13 @@ function tick(){
     var m = d.getMinutes();
     var s = d.getSeconds();
     var day = h<11 ? 'AM' : 'PM';
-
+    h = h<10? '0' +h: h;
+    m = m<10? '0' +m: m;
+    s = s<10? '0' +s: s;
     if (h > 12){
         document.getElementById('session').innerHTML = 'PM';
         h = h - 12;
+        h = h<10? '0' +h: h;
     }else{
         document.getElementById('session').innerHTML = 'AM';
     }
