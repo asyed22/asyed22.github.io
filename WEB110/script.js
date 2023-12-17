@@ -21,4 +21,4 @@ function tick(){
     document.getElementById('hours').innerHTML = h;
     document.getElementById('minutes').innerHTML = m;
     document.getElementById('seconds').innerHTML = s;
-} var inter = setInterval (tick , 400);
+} var inter = setInterval (tick , 1000);
