@@ -1,6 +1,6 @@
 html{
     background-color: black;}
-
+    
 .x{font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     background-color: antiquewhite;
@@ -36,7 +36,10 @@ html{
     margin-right: auto;
     margin-top: 100px;}
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .first{
     height: 100 vh;
     display: flex;
